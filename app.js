@@ -8,7 +8,7 @@ const app = express()
   
 app.use(cookieParser())
 app.use(cors({
-    origin: '*',
+    origin: 'https://65b7eea7be077f34cb945ba4--stirring-frangollo-a919c8.netlify.app/',
     credentials: true
   }));
   
