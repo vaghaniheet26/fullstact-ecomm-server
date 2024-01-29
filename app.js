@@ -8,7 +8,7 @@ const app = express()
   
 app.use(cookieParser())
 app.use(cors({
-    origin: 'https://cloth-oq42.onrender.com/',
+    origin: '*',
     credentials: true
   }));
   
